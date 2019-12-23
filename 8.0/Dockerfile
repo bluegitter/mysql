@@ -27,6 +27,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		pwgen \
 # for mysql_ssl_rsa_setup
 		openssl \
+# for network debug tool
+		curl \
+		iputils-ping \
+		procps \
+		lsof \
+		net-tools \
+		telnet \
 # FATAL ERROR: please install the following Perl modules before executing /usr/local/mysql/scripts/mysql_install_db:
 # File::Basename
 # File::Copy
